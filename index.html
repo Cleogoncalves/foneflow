@@ -2,9 +2,10 @@
 <html>
     <head>
         <Title>Fone Flow</Title>
+        <link href="style.css" rel="stylesheet"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     </head>
-    <body  class="bg-dark">
+    <body>
         <header>
             <nav  class="navbar navbar-expand-lg navbar-dark">
                 <div class="container">
@@ -32,66 +33,66 @@
                 </nav>
         </header>
         <section id="hero" class=" d-flex align-items-center">
-            <div>
-                <div>
-                    <div>
-                        <span>✨ NOVO  LANÇAMENTO 2026</span>
-                        <h1>
+            <div class="container">
+                <div class="row align-items-center gy-5">
+                    <div class="col-lg-6 text-center text-lg-start">
+                        <span class="badge badge-lancamento mb-3 text-uppercase fw-bold">✨ NOVO  LANÇAMENTO 2026</span>
+                        <h1  class="display-3  fw-black mb-4 hero-titulo" >
                             FoneFlow <br />
-                            <span>Pro X</span>
+                            <span class="hero-titulo-destaque">Pro X</span>
                         </h1>
-                            <p> Som que liberta.Desingn que impressiona.O fone com concelamento de ruido que vai mudar a forma como voce ouve musica.</p>
-                            <div>
-                                <a href="#comprar">Quero o meu</a>
-                                <a href="funcionalidades"> Saiba mais</a>
+                            <p class="lead mb-5 hero subtitulo"> 
+                                Som que liberta.Desingn que impressiona.O fone com concelamento de ruido que vai mudar a forma como voce ouve musica.</p>
+                            <div class="d-flex gap-3  justify-content-center justify-content-lg-start flex-warp">
+                                <a href="#comprar" class="btn btn-cta btn-lg">Quero o meu</a>
+                                <a href="funcionalidades" class="btn btn-outline-ligt btn-lg btn-outline-hero"> Saiba mais</a>
 
                             </div>
                     </div>
-                    <div>
-                        <img
+                    <div class="col-lg-6 text-center">
+                        <img class="img-fluid product-img"
                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHwpxg_FVwZos4LY2YpI4JY8W1kTshjXuu5Q&ss"
                           alt="" 
                 
                           />
 
-
                     </div>
                 </div>
             </div>
-        </section>
-        <section  id="sobre">
-            <div>
-                <div>
-                    <div>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHwpxg_FVwZos4LY2YpI4JY8W1kTshjXuu5Q&ss"
+            </section>
+            <section id="Sobre">
+            <div class="container">
+                <div class="row align-items-center gy-5">
+                    <div class="col-lg-6 text-center">
+                        <img class="img-fluid rounded-4 shadow"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHwpxg_FVwZos4LY2YpI4JY8W1kTshjXuu5Q&ss"
                         alt="">
-                    </div>
-                    <div>
-                        <span>Sobre o produto</span>
-                        <h2>O que e FoneFlow pro x?</h2>
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque autem placeat blanditiis amet temporibus perferendis deleniti itaque neque? Ipsum eveniet expedita modi aliquid earum tenetur distinctio, sed quod explicabo minus.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam soluta vero ab architecto tenetur, possimus aliquid inventore alias praesentium! Quaerat ratione minus commodi debitis tempora magnam impedit totam minima rerum!
-                        </p>
-                        <div>
-                            <div>
-                                <span>40 h</span>
-                                <smal>de bateria</smal>
-                            </div>
-                            <div>
-                                <span>35dB</span>
-                                <smal>reduçao de ruido</smal>
-                            </div>
-                            <div>
-                                <span>255g</span>
-                                <smal>peso leve</smal>
+                        </div>
+                        <div class="col-lg-6">
+                            <span class="text-uppercase fw-bold secao-label">Sobre o produto</span>
+                            <h2 class="display-5 fw-bald mt-2 mb-4">O que e FoneFlow pro x?</h2>
+                            <p class="lead text-muted">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque autem placeat blanditiis amet temporibus perferendis deleniti itaque neque? Ipsum eveniet expedita modi aliquid earum tenetur distinctio, sed quod explicabo minus.
+                            </p>
+                            <p class="text-muted">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam soluta vero ab architecto tenetur, possimus aliquid inventore alias praesentium! Quaerat ratione minus commodi debitis tempora magnam impedit totam minima rerum!
+                            </p>
+                            <div class="d-flex gap-4 mt-4 flex-warp">
+                                <div class="text-center">
+                                    <span class="fw-bold fs-3 stat-valor">40 h</span>                                    
+                                    <small class="text-muted">de bateria</small>
+                                </div>
+                                <div class="text-center">
+                                    <span class="fw-bold fs-3 stat-valor">35dB</span>
+                                    <small class="text-muted">reduçao de ruido</small>
+                                </div>
+                                <div class="text-center">
+                                    <span class="fw-bold fs-3 stat-valor">255g</span>
+                                    <small class="text-muted">peso leve</small>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     </body>
