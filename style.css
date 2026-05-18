@@ -61,39 +61,69 @@ section {
 .stat-valor {
     color: var(--cor-primaria);
 }
+
 .feature-card {
     border:none;
-    border-radius: 16px; 
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-  .feature-card:hover{
-        transform: translateY(-6px);
-        box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+.feature-card:hover {
+    transform: translatey(-6px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.12);
 
-        }
-.feature-icon{
-    font-size: 2.5rem; 
-    color: var(--cor-primeira);
+}
+.feature-icon {
+    font-size: 2.5rem;
+    color: var(--cor-primaria);
 }
 
-.spec-icon  {
+.spec-icon {
     color: var(--cor-primaria);
 }
 
 #especificacoes {
     background-color: var(--cor-fundo-azul);
-
 }
+
 .depoimento-card {
     background-color: var(--cor-fundo-medio);
     border-radius: 16px;
     color: #fff;
-
-
 }
-.avatar{
+.avatar {
     width: 40px;
     height: 40px;
     font-weight: bold;
     color: #fff;
+}
+#depoimentos {
+    background-color: var(--cor-fundo-escuro);
+    color:#fff;
+}
+#comprar {
+    background-color: var(--cor-fundo-medio);
+    color: #fff;
+}
+
+.btn-cta {
+    background-color: var(--cor-primaria)!important;
+    color: #fff !important;
+    border: none;
+    padding: 0.85rem 2.5rem!important;
+    border-radius: 50px!important;
+}
+.link-social {
+    color: var(--cor-fundo-claro);
+    text-decoration: none;
+}
+.link-social:hover{
+    color: var(--cor-primaria);
+}
+.footer-muted {
+    color: #6b7280;
+}
+.preco-tag {
+    font-size: 3.5rem;
+    color:  var(--cor-primaria);
+    font-weight: 800;
 }
